@@ -1,7 +1,8 @@
 # Algorithm Note A to Z
 
- ><pre>한글로 하겠습니다.
- 이 repository는 처음 알고리즘 하는 사람들이 빠르게 실력을 향상할 수 있도록 하는 것을 목표로합니다.
+ >
+ <pre>한글로 하겠습니다.
+> 이 repository는 처음 알고리즘 하는 사람들이 빠르게 실력을 향상할 수 있도록 하는 것을 목표로합니다.
 </pre>
 
 ## Mailing List
