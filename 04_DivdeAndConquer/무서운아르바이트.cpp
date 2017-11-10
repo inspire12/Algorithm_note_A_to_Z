@@ -15,10 +15,8 @@ int recur(int left, int right){
   if(right < 0 || left>=n)return 0;
   int minW =1000002;
   //find
-  //cout << left << " "<< right << endl;
   if(left >= right){
     maxW=maxV(maxW, work[right]);
-  //  cout << " "<<maxW <<" "<< work[right] << endl;
     return 0;
   }
   int tmpL;
