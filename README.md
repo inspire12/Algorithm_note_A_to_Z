@@ -8,8 +8,7 @@
 ## Mailing List
 * inspire12 (ox4443@naver.com)
 
-## Curriculum
-
+# 1) 시작하기
 ## 1. C++\_input_output_STL :
  * 입력과 출력
  * STL
@@ -31,10 +30,10 @@
 ## 3. *Recursive?*
  * 나눠서 찾기 문제
  * Permutations and Combinations : 순열과 조합.
-##### Hard
+#### Hard
  * 끝까지 가서 아니면 바꾸는 방법 : Back tracking
  * N-P problem
-### 최적이라는 벽을 푸는 아이디어
+# 2) 최적이라는 벽을 푸는 아이디어
 
 ## 4. Divide and Conquer
  * MergeSort
@@ -42,9 +41,9 @@
 
 ## 5. DP
  * Top Down 방식으로 구현 예장  
-##### DP Advanced
+#### DP Advanced
  * LIS 값을 확인
-##### Data structure Graph & Tree
+#### Data structure Graph & Tree
 ## 6. Graph
  * Graph 구현(서브 그래프)
  * DFS, BFS  
