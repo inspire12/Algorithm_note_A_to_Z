@@ -3,7 +3,7 @@
 
 using namespace std;
 #define lld long long int
-int memo[100];
+lld memo[100];
 
 lld fibo(int n){
   if(n<=2) return memo[n] = 1;

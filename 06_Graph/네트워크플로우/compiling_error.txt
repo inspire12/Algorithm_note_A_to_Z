@@ -1,0 +1,23 @@
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp: In function 'int find_path(int, int)':
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:28:27: error: '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka struct network_edge}' has no member named 'size'
+   for(int i=0; i<adj[cur].size(); i++ ){
+                           ^~~~
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:29:39: error: no match for 'operator[]' (operand types are '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka network_edge}' and 'int')
+     network_edge& next_edge = adj[cur][i];
+                                       ^
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:34:24: error: no match for 'operator[]' (operand types are '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka network_edge}' and 'int')
+       adj[next_edge.to][next_edge.residual_idx].flow -= added;
+                        ^
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp: In function 'int main()':
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:49:19: error: '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka struct network_edge}' has no member named 'push_back'
+         adj[from].push_back(network_edge(to, capacity, 0, adj[to].size()));
+                   ^~~~~~~~~
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:49:67: error: '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka struct network_edge}' has no member named 'size'
+         adj[from].push_back(network_edge(to, capacity, 0, adj[to].size()));
+                                                                   ^~~~
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:50:17: error: '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka struct network_edge}' has no member named 'push_back'
+         adj[to].push_back(network_edge(from, 0, 0, adj[from].size() - 1));
+                 ^~~~~~~~~
+C:\Users\ox444\Documents\Git\Algorithm_note_A_to_Z\06_Graph\��Ʈ��ũ�÷ο�\8_networkflow.cpp:50:62: error: '__gnu_cxx::__alloc_traits<std::allocator<network_edge> >::value_type {aka struct network_edge}' has no member named 'size'
+         adj[to].push_back(network_edge(from, 0, 0, adj[from].size() - 1));
+                                                              ^~~~

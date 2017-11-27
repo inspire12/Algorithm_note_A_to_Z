@@ -1,4 +1,8 @@
 public class Main {
+  public static class main(String args[]){
+    sc sc = new sc();
+    String a = sc.readline();
+  }
   static class sc {
   		private static BufferedReader br;
   		private static StringTokenizer st;
